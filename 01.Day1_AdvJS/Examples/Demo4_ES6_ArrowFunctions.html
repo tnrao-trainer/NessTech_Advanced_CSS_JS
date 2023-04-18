@@ -1,0 +1,52 @@
+<html>
+
+	<head></head>
+	
+	<body>
+		<h3>Advanced JavaScript - Arrow Functions</h3>
+		<hr/>
+		
+		<script>		
+		
+			function   getEvens(num)
+			{
+				var result = num * 2;
+				return result;
+			}
+			 
+			 
+			 	var  ar1  = [1,2,3,4,5];	 
+				var  ar2 =  ar1.map(Math.sqrt);				
+				var   ar3 =  ar1.map(getEvens);				
+				
+				var   ar4 =  ar1.map(  function(num)
+				{
+					var result = num * 5;
+					return result;
+				});
+				
+				// goes to 
+				var   ar5 =  ar1.map(  (num)  => 
+				{
+					var result = num * 10;
+					return result;
+				});
+				
+				
+				// goes to 
+				var   ar6 =  ar1.map(  num =>  num * 11 );
+				
+				
+				console.log(ar1);
+				console.log(ar2);
+				console.log(ar3);				
+				console.log(ar4);				
+				console.log(ar5);				
+				console.log(ar6);				
+
+		</script>
+	
+	
+	</body>
+
+</html>
