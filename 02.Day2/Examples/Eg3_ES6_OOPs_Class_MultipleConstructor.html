@@ -1,0 +1,55 @@
+<html>
+<head></head>
+<body>
+<h3> JavaScript 6 (ES6)  -  Object Oriented Programming  </h3>
+<hr/>
+
+	<input type="button"  onclick="fn_button1Click()"  value="Get Data" />
+ 
+	<script>
+	
+	
+	class  Person
+	{
+			// properties 
+			name  = "";
+			age  = 0;
+						
+			constructor(name = "",  age = 0)
+			{
+				// console.log("Hi from constructor");
+				this.name = name;
+				this.age = age;
+			}
+				
+			// methods
+			showDetails()
+			{
+				// console.log("Message from showDetails method");
+				 let str  = `Person Name  : ${this.name},  Age : ${this.age} `;
+				 console.log(str);
+			}			
+	}
+	 
+	 
+				
+		function fn_button1Click()
+		{
+			let  personObj1 =  new Person();
+			let  personObj2 =  new Person("Smith");
+			let  personObj3 =  new Person("Smith", 35);
+						
+			personObj1.showDetails();
+			personObj2.showDetails();
+			personObj3.showDetails();			 
+		}	
+	</script>	 
+	
+	
+</body>
+</html>
+
+
+
+
+

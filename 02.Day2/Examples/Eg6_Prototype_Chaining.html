@@ -1,0 +1,54 @@
+<html>
+<head></head>
+<body>
+<h3> JavaScript 6 (ES6)  -  Object Oriented Programming  </h3>
+	<hr/>
+<input type="button"  onclick="fn_button1Click()"  value="Get Data" />
+ 
+	<script>	 
+	 
+		class  Person
+		{
+
+		}
+
+		class Employee extends Person
+		{
+			
+		}
+
+		class  ContractEmployee  extends Employee
+		{
+			
+			
+		}
+
+ 
+				
+		function fn_button1Click()
+		{
+			var empObj = new ContractEmployee();		
+		   
+		    var protoObj = Object.getPrototypeOf( empObj );			
+	// 	console.log( protoObj );			
+	
+	 	let str =  ""
+		 
+		while (protoObj != null) 
+		{	 
+		   str  =  str + protoObj.constructor.name + " --> ";
+		  protoObj = Object.getPrototypeOf(protoObj);  
+		} 
+
+		 console.log(str);
+		  
+		}
+	</script>	 
+	
+</body>
+</html>
+
+
+
+
+

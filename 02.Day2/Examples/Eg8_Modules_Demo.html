@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Working with  Modules in JavaScript</h1>
+<hr/>
+
+
+<p id="demo"></p>
+
+<script type="module">
+
+//  import  {empData} from "./emp_data.js";	 // for named import
+
+// import  empData from "./emp_data.js";	 // for default import
+import  empInfo from "./emp_data.js";	 // for default import
+
+document.getElementById("demo").innerHTML = empInfo();
+
+</script>
+
+
+</body>
+</html>

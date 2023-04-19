@@ -1,0 +1,27 @@
+<html>
+<head></head>
+<body>
+<h3> Working wit Closures in JavaScript  </h3>
+	<hr/>
+<input type="button"  onclick="fn_button1Click()"  value="Get Counter" />
+ 
+	<script>	 	 
+	 const  updateCounter = ( function () {
+						let counter = 0;
+						return function () {  counter += 1;  return counter; }
+		})();
+
+
+		function  fn_button1Click()
+		{
+			alert("Counter : "  +  updateCounter());
+		}  
+	</script>	 
+	
+</body>
+</html>
+
+
+
+
+
