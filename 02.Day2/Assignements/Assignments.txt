@@ -1,0 +1,20 @@
+1. Create javascript program to process customer details using object oriented programming.
+	a. Class Name :	Customer 
+	b.  Class should allow the following parameters in constructor
+				let c1 = new Customer();
+				let c2 = new Customer(10256);
+				let c3 = new Customer(10256, “Scott”);
+				let c4 = new Customer(10256, “Scott”, “Hyd”);
+	c. Declare required number of variables in the class. 
+	d. Method :  ShowDetails() to display all the values in single Line.
+	Eg:	Customer Details  ::   Id : 10256, Name : Scott, City : Hyd
+	
+	
+2.  Display the inheritance tree using prototype chain concept. 	
+	  RoundedSquare --->  Square  --->   Shape ---> Object  
+
+3. Study the following points on Internet:
+		a.   Diff. between  ==  and ===
+		b.   More details on closure from the below url:
+				https://www.tutorialsteacher.com/javascript/closure-in-javascript
+		c.   Why do we use Set()  collection in javascript
