@@ -1,1 +1,96 @@
+Object Programming in JavaScript
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Object Initializer
+var  obj =  {sid :  1025, sname  : "Scott"};
+
+// Using constructor function 
+function   Student()
+{
+		this.sid  = 1025;
+		this.sname  = "Scott";
+}
+
+
+var  obj =  new Student();
+
+
+Scope
+~~~~~~
+1.  local variables		---    within the function /methods  	
+2.  global variables ----  	accessible entire file 
+3.  block varaibale ---    within the block of statements 	(let)
+
+4.  instance variables  ---  within the class (all methods)
+
+
+
+
+Inheritance
+~~~~~~~~~~
+
+extends  	---		java, javascript, typescript
+ :					---		c++, c#
+ Inherits 		---		vb.net 
+ 
+ 
+ 
+ Note:
+ 
+ -->  Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+ 
+ 
+		super();		//  parent class constructor
+		
+----------------------------------------------------------------------
+
+Prototype Chain in JavaScript
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-->    To add new properties or methods to existing objects,arrays and to inherit properties
+
+--> prototype is an object that is associated with every functions and objects by default in JavaScript 
+
+--> function's prototype property is accessible and modifiable and object's prototype property 
+
+
+
+
+Base Types
+~~~~~~~~~~
+System.Object		---	  .NET
+Object 					---			JavaScript
+
+
+
+
+
+
+JSON.parse()
+JSON.stringify()
+
+--------------------------------------------------------------
+
+
+Closures
+~~~~~~~
+
+Scope
+ 
+1.  local variables		---    within the function /methods  	
+2.  global variables ----  	accessible entire file 
+3.  block varaibale ---    within the block of statements 	(let)
+
+4.  instance variables  ---  within the class (all methods)
+
+
+
+Prev 
+next
+First
+Last
+
+
+--> Need to maintain the global variable (counter) for all functions. 
+--> Global varaibles need to declare outside the functions. 
+
 
