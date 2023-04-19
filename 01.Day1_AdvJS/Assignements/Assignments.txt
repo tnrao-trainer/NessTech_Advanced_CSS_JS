@@ -1,0 +1,18 @@
+1. Study the following methods of array in javascript:
+			-->   find(),  findIndex(), filter()
+			
+2. Perform the following operations on Array of Employee Objects
+
+		a.  Each employee object contains the following the properties:  
+					empno, ename, job, sal, deptno
+		b.  Display employee details who are working in deptno 30
+		c.  Display employee details whose salary between 10000 to 50000
+		d.  Display employee based on given empno 
+		
+		Hint :  Use arrow functions along with Array Methods. 
+		
+3.   Study the following requirements :
+		a.  How to cloning the arrays in javascript? 
+		b. What is deep coping and shallow copying javascript?
+
+		
