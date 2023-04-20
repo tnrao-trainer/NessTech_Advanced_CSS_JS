@@ -1,1 +1,80 @@
 
+Asynchronous  Programming in JavaScript
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+1.  AJAX  	:   Asynchronous JavaScript And XML				
+						Communicate with server
+						XMLHTTPRequest object to communicate with server
+						Partial Page Loading 
+						By Google team - 2005
+				
+2.  Timer Programming
+
+			-->   setTimeout()	:   It calls the function after that timeout in setTimeout
+													1 second like 1000 milliseconds
+													
+			-->	setInterval()	:   calls a function at specified intervals(in milliseconds)
+
+			
+			Syntax:		setTimeout(callback, duration);
+			Eg:				setTimeout(myGreeting, 5000);
+
+
+
+
+AJAX in client side programming
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	1.   XMLHTTPRequest Object
+	2.   fetch()			---  promise based api 
+	3.   axios  			---	promise based api  (used in  react js)
+	4.   HttpClient 		----		Angular  
+ 
+
+
+
+Promises  in JavaScript
+~~~~~~~~~~~~~~~~~~~~~~~
+
+1.   Stage1:		Promise creation to perform the operation
+2.   Stage2 :		Subscribe the promise object for responses 
+
+const  myPromise = new Promise(callback);
+
+
+const  myPromise = new Promise(  (resolve, reject)  =>  {  
+	// code  to perform operations 
+	//  invoke resolve if success 
+	//  invoke reject   if failure 
+	
+   });
+
+
+const myPromise = new Promise((resolve, reject) => {   
+    	resolve(“success");   
+	(or)
+	reject(“error”);
+});
+
+
+// 2.   Stage2 :		Subscribe the promise object for responses 
+myPromise.then(callback);
+ 
+
+
+
+Fetch API for Server Communication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-->  fetch() allows you to make network requests similar to XMLHttpRequest (XHR). 
+-->  The main difference is that the Fetch API uses Promises
+
+
+
+
+
+
+
+
+JSON.parse()	:		JSON string into JS objects 
+JSON.stringify() :   JS Objects into JSON string 
