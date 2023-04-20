@@ -1,0 +1,47 @@
+<html>
+<head></head>
+<body>
+<h3>AJAX Programming in  JavaScript</h3>
+	<hr/> 
+	
+	<button  onclick="fn_getData()">Get Data </button>
+	<br/><br/>
+	<ul  id="list1"  style="border:2px solid blue; padding:30px;">
+	</ul>
+	 
+	 
+	<script>	 
+	
+var lstObj = document.getElementById("list1");
+		
+		
+	async  function fn_getData()
+	{ 
+		let url = "https://www.w3schools.com/angular/customers.php";				 
+		let  response  =  await fetch(url);
+		let  resData    =  await  response.json();		
+		// console.log( resData.records );	 	
+		displayData(resData.records);
+	}  
+	
+	function   displayData(  dataArray )
+	{
+			let  str  = "";
+			
+			for(let  item  of  dataArray)
+			{
+				str  +=  `<li> ${item.Name} - <span style="color:blue;">${item.City} </span> </li>`;
+			}			
+			
+			lstObj.innerHTML = str;
+	}
+	 
+	
+	</script>	 
+</body>
+</html>
+
+
+
+
+
