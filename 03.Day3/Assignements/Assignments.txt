@@ -1,0 +1,13 @@
+1.  Write a javascript code to return employee object from promise and display them by subscribe the promise object.
+
+2.  Write a javascript to code to display user details from the below url. 
+		a. https://reqres.in/api/users
+		b .  Use fetch() API to communicate with server.  
+		c.   Display the data in table format
+
+3.  Study the following items:
+
+	a.  more details on event loop:
+			https://www.educative.io/answers/what-is-an-event-loop-in-javascript
+	b.   JSON.stringify()  and JSON.parse()
+	c.   How to use XmlHttpRequest object?
