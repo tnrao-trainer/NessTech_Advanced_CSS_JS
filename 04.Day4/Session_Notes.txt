@@ -1,1 +1,59 @@
 
+Advanced CSS
+~~~~~~~~~~~~
+
+
+RWD:
+	-->  Making web applications look good and compatible in all devices.
+	
+	-->  Apply Styles  ---   un-conditional styles same for all devices. 
+	-->  Apply Styles  ---   conditional styles for specific devices. 
+	
+	
+ Media Queries ---  css3 concept used to implement RWD. 
+ 
+ 
+ 
+ 
+ Multi-column  (css3 concept)
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 		column-count :   3;
+		column-gap : 30px;
+		column-rule :  5px double green;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+Block Elements	:		div, p, h1, ul, li, etc... 
+In-line elements 	:		span, a, img, etc.. 
+
+----------------------------------------------------------------------------------
+
+
+
+
+HTML5 Semantic Tags
+
+	a.  Layout :   
+				i.  header   ---   top level heading and log , banners
+				ii. nav   		---	Navigation bar
+				iii.  section, article   ---  actual content , multiple aritcles
+				iv.   aside    ---   side bar content, ads, hyperlinks, ... 
+				v.   footer   ----  page footer --- copyright info.., quick links, etc... 
+				
+	b.  Content 
+
+
+
+
+
+
+
+
+
