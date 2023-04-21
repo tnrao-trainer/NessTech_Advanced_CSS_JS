@@ -1,0 +1,18 @@
+1.  Create a web page to implement the following requirements:
+		a. display product details in cards format.
+		b. product details includes image, pname, price, brand name 
+		c. all product cards should display in flex container div. 
+		d. arrange them in row format 
+		
+2.   Create a complete web page to implement the the following requirements:
+
+		a.  page header, footer, nav bar, aside bar for ads, 
+		b.  use grid layout 
+		c.   apply media queries to arrange them for tab and mobile
+		
+		Hint :  Refer some live web sites and implement the above requirements accordingly 
+		
+3.  Study the following items:
+		a.    viewport option in meta tag
+		b.    what different types of media option in media query?
+		c.     how to customize the content for TV media?
