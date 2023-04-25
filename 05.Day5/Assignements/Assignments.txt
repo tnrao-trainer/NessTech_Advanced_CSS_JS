@@ -1,0 +1,14 @@
+1.  Create a home page with menu bar, header, article and footer.
+		a.  apply the styles using bootstrap
+		b.  implement menu using bootstrap nav bar
+		c.  use bootstrap grid system to present the content
+		d.  add responsive facility to grid system
+		
+2.  Create react app to apply styles using MUI. 
+		a. display product details in cards format
+		b. apply rating to each component using rating mui component
+		c.  add required component as per your design 
+		
+	Note : This assignment only for those who are aware of React JS.
+	
+3.  Go through all the concepts that you learned in 5 day training for assessment
